@@ -16,6 +16,10 @@ dibujo = DibujoPage;
 
   clickHistoria(){
     this.navCtrl.push(this.historia);
+    
+  }
+  clickDibujo(){
     this.navCtrl.push(this.dibujo);
   }
 }
+
