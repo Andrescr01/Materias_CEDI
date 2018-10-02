@@ -10,6 +10,7 @@ import { HistoriaPage } from '../pages/historia/historia';
 import { DibujoPage } from '../pages/dibujo/dibujo';
 import { PappsPage } from '../pages/papps/papps';
 import { CienciasPage } from '../pages/ciencias/ciencias';
+import { PyePage } from '../pages/pye/pye';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CienciasPage } from '../pages/ciencias/ciencias';
     HistoriaPage,
     DibujoPage,
     PappsPage,
-    CienciasPage
+    CienciasPage,
+    PyePage
   ],
   imports: [
     BrowserModule,
@@ -31,7 +33,8 @@ import { CienciasPage } from '../pages/ciencias/ciencias';
     HistoriaPage,
     DibujoPage,
     PappsPage,
-    CienciasPage
+    CienciasPage,
+    PyePage
   ],
   providers: [
     StatusBar,

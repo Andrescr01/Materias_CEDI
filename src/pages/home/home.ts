@@ -4,6 +4,7 @@ import { HistoriaPage } from '../historia/historia';
 import { DibujoPage } from '../dibujo/dibujo';
 import { PappsPage } from '../papps/papps';
 import { CienciasPage } from '../ciencias/ciencias';
+import { PyePage } from '../pye/pye';
 
 @Component({
   selector: 'page-home',
@@ -14,6 +15,7 @@ historia = HistoriaPage;
 dibujo = DibujoPage;
 papps = PappsPage;
 ciencias = CienciasPage;
+pye = PyePage;
   constructor(public navCtrl: NavController) {
 
   }
@@ -30,6 +32,9 @@ ciencias = CienciasPage;
   }
   clickCiencias(){
     this.navCtrl.push(this.ciencias);
+  }
+  clickPye(){
+    this.navCtrl.push(this.pye);
   }
 
 
