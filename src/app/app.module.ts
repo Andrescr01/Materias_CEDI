@@ -11,6 +11,7 @@ import { DibujoPage } from '../pages/dibujo/dibujo';
 import { PappsPage } from '../pages/papps/papps';
 import { CienciasPage } from '../pages/ciencias/ciencias';
 import { PyePage } from '../pages/pye/pye';
+import { MiPage } from '../pages/mi/mi';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PyePage } from '../pages/pye/pye';
     DibujoPage,
     PappsPage,
     CienciasPage,
-    PyePage
+    PyePage,
+    MiPage
   ],
   imports: [
     BrowserModule,
@@ -34,7 +36,8 @@ import { PyePage } from '../pages/pye/pye';
     DibujoPage,
     PappsPage,
     CienciasPage,
-    PyePage
+    PyePage,
+    MiPage
   ],
   providers: [
     StatusBar,
