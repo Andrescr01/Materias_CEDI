@@ -12,6 +12,7 @@ import { PappsPage } from '../pages/papps/papps';
 import { CienciasPage } from '../pages/ciencias/ciencias';
 import { PyePage } from '../pages/pye/pye';
 import { MiPage } from '../pages/mi/mi';
+import { ComPage } from '../pages/com/com';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MiPage } from '../pages/mi/mi';
     PappsPage,
     CienciasPage,
     PyePage,
-    MiPage
+    MiPage,
+    ComPage
   ],
   imports: [
     BrowserModule,
@@ -37,7 +39,8 @@ import { MiPage } from '../pages/mi/mi';
     PappsPage,
     CienciasPage,
     PyePage,
-    MiPage
+    MiPage,
+    ComPage
   ],
   providers: [
     StatusBar,
