@@ -7,6 +7,7 @@ import { CienciasPage } from '../ciencias/ciencias';
 import { PyePage } from '../pye/pye';
 import { MiPage } from '../mi/mi';
 import { ComPage } from '../com/com';
+import { RobPage } from '../rob/rob';
 
 @Component({
   selector: 'page-home',
@@ -20,6 +21,7 @@ ciencias = CienciasPage;
 pye = PyePage;
 mi = MiPage;
 com = ComPage;
+rob = RobPage;
   constructor(public navCtrl: NavController) {
 
   }
@@ -45,6 +47,9 @@ com = ComPage;
   }
   clickCom(){
     this.navCtrl.push(this.com);
+  }
+  clickRob(){
+    this.navCtrl.push(this.rob);
   }
 
 
